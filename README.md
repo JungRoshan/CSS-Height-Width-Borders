@@ -1,35 +1,44 @@
 # CSS-Height-Width-Borders
 focused on mastering CSS properties related to element dimensions and borders, including height, width, border styles, and border-radius.
 
+
 ## 🔧 What I Practiced
 
-- **Changed Block Elements to Inline:**  
-  Used `display: inline;` on `<h2>` headers (normally block-level) to make them flow inline.
-- **Changed Inline Elements to Block:**  
-  Applied `display: block;` to `<span>` elements (normally inline) and styled them with width, height, margin, padding, and borders.
-- **Styled Multiple Divs Side-by-Side:**  
-  Created three `<div>` elements and used `display: inline-block;` to arrange them horizontally while allowing block-level styling.
+- Set fixed heights and widths on `<div>` and `<h1>` elements.
+- Applied various border properties:
+  - Border width, style, and color.
+  - Individual border side customization (e.g., `border-left`).
+  - Rounded corners using `border-radius` and specific corner radius.
+- Used padding and margin to control spacing inside and outside elements.
+- Styled buttons with borders, border-radius, padding, and background color.
+- Created a traffic-light style vertical container with three circular colored divs using `border-radius: 50%`.
 
 ## 📄 HTML & CSS Highlights
 
 ### First HTML & CSS File:
-- Two `<h2>` elements set to `display: inline` with a pink background.
-- Multiple `<span id="inline">` elements set to `display: block`, given width, height, padding, margin, and a border.
-- Demonstrated how inline elements become block-level and accept box-model properties when their display is changed.
+- `<div>` elements with:
+  - `height: 200px; width: 500px;`
+  - Pink background and yellow solid border with a thicker red dashed left border.
+  - Rounded corners with `border-radius: 50px`.
+  - Padding and margin adjustments for content spacing.
+- `<h1>` element styled as a circle with dashed or solid borders and rounded corners.
+- Styled `<button>` with black border, rounded corners, padding, and yellow background.
 
 ### Second HTML & CSS File:
-- Three `<div>` elements:
-  - `height: 200px; width: 200px;`
-  - `background-color: greenyellow;`
-  - `border: 2px solid black;`
-  - `margin: 20px;`
-  - `display: inline-block;` (so they appear side-by-side)
+- A vertical container (`#rect`) with fixed height and width and black border.
+- Three inner circular divs (`.inner`) with different background colors (red, yellow, green), simulating a traffic light.
+- Each circle has a black border and margin spacing.
 
 ## 🧠 Key Takeaways
 
-- The **display property** is powerful for changing how elements behave in the document flow.
-- Block elements can be made inline, and inline elements can be made block, unlocking new layout possibilities.
-- `inline-block` combines the best of both worlds: elements flow inline but accept block-level box model properties.
+- The `height` and `width` properties control the size of elements but do not include padding or borders.
+- Borders can be customized individually on each side and rounded using `border-radius`.
+- Padding adds space inside the border, while margin adds space outside the element.
+- Circular shapes are created by setting equal height and width and `border-radius: 50%`.
+- Combining these properties allows for versatile and visually appealing layouts.
 
 ---
+
+
+
 
